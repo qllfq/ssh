@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.qiaolulu.employee.domain.Department" table="department" catalog="employee">
+        <id name="did" column="did">
+        	<generator class="native"/>
+        </id>
+        
+        <property name="dname" column="dname" length="20"/>
+        <property name="ddesc" column="ddesc" length="100"/>
+   
+   		<!-- 配置关联关系映射 -->
+   		<!-- cascade="delete"删除的时候会进行级联把员工表中对应的员工也一并删除
+   			 inverse="true"放弃一对多的外键的维护
+   		-->
+   		<set name="employees" cascade="delete" inverse="true">
+   			<key column="dno"/>
+   			<one-to-many class="com.qiaolulu.employee.domain.Employee"/>
+   		</set>
+   
+    </class>
+</hibernate-mapping>

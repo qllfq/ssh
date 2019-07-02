@@ -1,0 +1,281 @@
+[genuitec-file-id="wc1-26"],[genuitec-lp-path="/EmpManager/WebRoot/style/listEmployee.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@font-face{
+	font-family:"english";
+	src:url(../font/english.ttf);
+}
+@font-face{
+	font-family:"hanti";
+	src:url(../font/hanti.ttf);
+}
+.contain-1{
+/*     border: 1px solid #000000; */
+    width: 100%;
+    height: 80px;
+    background: #27576d;
+}
+.nav{
+/*     border: 1px solid #000000; */
+    position: fixed;
+    height:70px;
+    background: #27576d;
+    width: 60px;
+    z-index: 9001;
+    transition: all .3s;
+    float: left;
+}
+.nav #mini{
+/*     border: 1px solid #000; */
+    width: 55px;
+    height: 50px;
+   padding-top: 15px;
+}
+.nav img{
+     width: 50px;
+    height:40px;
+    display: block;
+}
+.nav-mini.nav{
+    /* border: 1px solid #dfd; */
+    width: 190px;
+    background: #27576d;
+    height:900px;
+} 
+.nav .ztree{
+/*     border: 1px solid #000; */
+    width: 147px;
+    padding-top: 10px;
+    height: 300px;
+/*     overflow: hidden; */
+}
+.nav ul{
+    height: 100px;
+/*     display: none; */
+}
+.nav ul li{
+/*     border: 1px solid #000; */
+    display:none;
+    overflow: hidden;
+    list-style: none;
+    width: 180px;
+    margin-top: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size:1.2em;
+    height: 20px;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.nav ul li span{
+    font-family: "hanti"; 
+    font-size: 1em;
+}
+.contain-1-1{
+/*     border: 1px solid #000000; */
+    width: 47%;
+    height: 50px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+    float: left;
+}
+.contain-1-1-1{
+/*     border: 1px solid #000; */
+    width:41%;
+    height:50px;
+    float: left;
+}
+.contain-1-1-1 img{
+/*     border: 1px solid #000; */
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.contain-1-1-1 h3{    
+    width: 400px; 
+    position: relative;
+    padding-left:2px;
+    padding-top:5px;
+    font-size: 1.5em;
+    color: #ffffff;
+    letter-spacing:20px;
+      font-family: "hanti";
+}
+.contain-1-1-1 h4{
+    width: 250px;
+    font-size: 0.8em;
+    color: #ffffff;
+    padding-left: 2px;
+    word-spacing:12px;
+    letter-spacing:1px;
+    font-family: "english";
+    
+}
+.contain-1-2{
+/*      border: 1px solid #000; */
+     width: 65%;
+    height: 40px;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 200px;
+/*     padding-right: 20px; */
+}
+.contain-1-2 img{
+/*     border: 1px solid #000; */
+    width: 30px;
+    height: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 35px;
+    float: left;
+}
+.contain-1-2 h3{
+/*      border: 1px solid #000; */
+    color: #fff;
+    font-family: "hanti";
+    font-size: 1.5em;
+    width: 500px; 
+    letter-spacing: 5px;
+    padding-top: 4px;
+/*     text-align: right; */
+    
+}
+.contain-2{
+/*     border: 1px solid #000; */
+    width: 100%;
+    height: 750px;
+}
+.contain-2-1{
+    border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    background:#6f92a8;
+}
+.contain-2-1 a img{
+/*     border: 1px solid #000; */
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    margin-top: -35px;
+    margin-left: 450px;
+    float:left;
+}
+.contain-2-1 h3{
+/*     border: 1px solid #000; */
+    width: 300px;
+    font-family: "hanti";
+    font-size: 1.3em;
+    color: #000;
+    letter-spacing: 2px;
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contain-2-1 span{
+    font-size: 1.2em;
+}
+.contain-2-1-1{
+/* 	border: 1px solid #000; */
+	width:40%;
+	height:30px;
+	margin-top:-35px;
+	float:right;
+}
+.contain-2-1-1 tr td{
+    width: 20%;
+    
+}
+.contain-2-1-1 a{
+    text-decoration: none;
+    color: #000;
+    font-family: "hanti";
+}
+.contain-2-1-1 span{
+    font-family: "hanti";
+    font-size: 1em;
+}
+.contain-2-2{
+    border: 1px solid #000;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: #b3d4db;
+}
+.contain-2-2-1 {
+/*     border: 1px solid #000; */
+    width: 69%;
+    height:500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.contain-2-2-1 table thead{
+/*      border: 1px solid #000; */
+    height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contain-2-2-1 thead tr td{
+/*     border: 1px solid #000; */
+    
+    text-align: center;
+    background: #27576d;
+}
+.contain-2-2-1 thead tr td h3{
+    color: #fff;
+    font-family: "hanti";
+    padding-top: 2px;
+    font-size: 1.1em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.contain-2-2-1 table tbody{
+/*      border: 1px solid #000; */
+    height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contain-2-2-1 tbody tr td{
+    /* border: 1px solid #000; */
+    width: 200px;
+    text-align: center;
+    background: #27576d;
+    color: #fff;
+    font-family: "hanti";
+    font-size: 1em;
+    letter-spacing:2px;
+}
+.contain-2-2-1 tbody tr td img{
+    width: 30px;
+    height: 30px;
+}
+.contain-2-2-1 tbody tr td .revise{
+    width: 25px;
+    height: 25px;
+}
+.contain-3{
+/*     border: 1px solid #000000; */
+    width: 100%;
+    height: 80px;
+    background: #27576d; 
+}
+.contain-3 h3{
+/*       border: 1px solid #000000; */
+    text-align: center;
+    font-family: "english";
+    font-size: 1.2em;
+/*     margin-top: 18px; */
+    padding-top: 23px;
+    padding-bottom:23px;
+    color:#fff;
+}

@@ -1,0 +1,283 @@
+[genuitec-file-id="wc1-4"],[genuitec-lp-path="/EmpManager/WebRoot/style/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@font-face{
+	font-family:"english";
+	src:url(../font/english.ttf);
+}
+@font-face{
+	font-family:"hanti";
+	src:url(../font/hanti.ttf);
+}
+.contain-1{
+/*     border: 1px solid #000000; */
+    width: 100%;
+    height: 80px;
+    background: #27576d;
+}
+.contain-1-1{
+/*     border: 1px solid #000000; */
+    width: 49.8%;
+    height: 50px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+    float: left;
+}
+.contain-1-1-1{
+/*     border: 1px solid #000; */
+    width:40%;
+    height:50px;
+    float: left;
+}
+.contain-1-1-1 img{
+/*     border: 1px solid #000; */
+    width: 50px;
+    height: 50px;
+    float: right;
+    
+}
+.contain-1-1-1 h3{    
+    width: 300px; 
+    position: relative;
+    padding-left:2px;
+    padding-top: 5px;
+    font-size: 1.5em;
+    color: #ffffff;
+    letter-spacing:20px;
+      font-family: "hanti";
+}
+.contain-1-1-1 h4{
+    width: 250px;
+    font-size: 0.8em;
+    color: #ffffff;
+    padding-left: 2px;
+    word-spacing:12px;
+    letter-spacing:1px;
+    font-family: "english";
+    
+}
+.contain-1-2{
+/*      border: 1px solid #000; */
+     width: 80%;
+    height: 50px;
+    float: right;
+}
+.contain-1-2 ul{
+/*     border: 1px solid #000; */
+    width: 65%;
+    height: 50px;
+   
+    float: right;
+}
+.contain-1-2 ul li{
+/*     border: 1px solid #000; */
+    height: 20px;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    color: #fff;
+    font-size: 1em;
+    font-family: "hanti";
+    letter-spacing: 2px;
+    margin-top: 27px;   
+    
+}
+.contain-2{
+/*     border: 1px solid #000; */
+    width: 100%;
+    height: 630px;
+    background-color: #b3d4db;
+}
+.contain-2-1{
+/*     border: 1px solid #000; */
+    width: 50%;
+    height: 630px;
+    float: left;
+}
+.contain-2-1-1{
+/*     border: 1px solid #000; */
+    position: relative;
+    width: 90%;
+    height: 510px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ .contian-2-1-1-1{
+/*     border: 1px solid #000; */
+    width: 90%;
+    height: 550px;
+   margin-left: 50px;
+    padding-top: 10px;
+}
+.contian-2-1-1-1 h3{
+/*     border: 1px solid #000; */
+    width: 50px;
+    font-size: 2.2em;
+    text-align: center;
+    font-family: "english";
+    margin: auto;
+    padding-bottom: 10px;
+}
+.contian-2-1-1-1 h4{
+/*      border: 1px solid #000; */
+     font-family: "hanti";
+     width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 2.2em;
+}
+.contian-2-1-1-1-1{
+/*     border: 1px solid #000; */
+    width: 100%;
+    height: 470px;
+} 
+.contian-2-1-1-1-1 img{
+/*     border: 1px solid #000; */
+    width:510px;
+    height: 430px;
+    margin-top: 10px;
+}
+.contain-2-1-2{
+/*     border: 1px solid #000; */
+    width: 70%;
+    height: 510px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.contain-2-1-2 .img1{
+/*     border: 1px solid #000; */
+    margin-left:145px;
+    margin-right: 145px;
+    width: 150px;
+    height: 80px;
+    
+}
+.contain-2-1-2-1{
+/*     border: 1px solid #000; */
+    width: 400px;
+    height: 410px;
+    margin: auto;
+    background-color:rgba(255,255,255,0.9);
+    box-shadow:0 1px 5px #000;
+    
+}
+.contain-2-1-2-1 h3{
+    font-family:"hanti";
+    font-size:2em;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.contain-2-1-2-middle{
+/*     border: 1px solid #000; */
+    width:400px;
+    height:300px;
+    margin:auto;
+}
+.contain-2-1-2-middle-1{
+/*     border: 1px solid #000; */
+    width:260px;
+    height: 55px;
+    /*! margin:auto; */
+    padding-left: 80px;
+    padding-right: 20px;
+}
+.contain-2-1-2-middle-1 .img2{
+/*     border: 1px solid #000; */
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.contain-2-1-2-middle-1 .input1{
+    border: 1px solid #96b7be;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 10px;
+    font-family: "hanti";
+    background-color: #fff;
+    margin-left: 5px;
+}
+.contain-2-1-2-middle-1 .login_btn{
+/*     border: 1px solid #000;   */
+    border: none;
+    background-color: #96b7be;
+    width: 130px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-family: "hanti";
+    font-size: 1em;
+    letter-spacing: 5px;
+}
+.contain-2-1-2-middle-1-show{
+/*      border: 1px solid #000; */
+    width:340px;
+    height: 30px;
+    margin: auto;
+}
+.contain-2-1-2-middle-1-show ul{
+    list-style: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "hanti";
+    color: red;
+    padding-left: 40px;
+    font-size: 1.3em;
+}
+.contain-2-1-2-middle-2{
+/*     border: 1px solid #000; */
+    width:340px;
+    height: 70px;
+    margin:auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.contain-2-1-2-middle-2 h4{
+    font-family: "hanti";
+    letter-spacing: 2px;
+    padding-left: 30px;
+    text-align: center;
+}
+.contain-2-1-2-middle-2 .center{
+/*     border: 1px solid #000; */
+    width: 160px;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+.contain-2-1-2-middle-2 .img3{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    float: left;
+}
+.contain-3{
+/*     border: 1px solid #000000; */
+    width: 100%;
+    height: 80px;
+    background: #27576d; 
+}
+.contain-3 h3{
+/*       border: 1px solid #000000; */
+    text-align: center;
+    font-family: "english";
+    font-size: 1.2em;
+/*     margin-top: 18px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#fff;
+}
